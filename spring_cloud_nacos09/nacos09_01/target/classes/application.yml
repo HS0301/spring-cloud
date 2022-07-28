@@ -1,12 +1,12 @@
 server:
-  port: 8011
+  port: 8001
 spring:
   application:
-    name: nacos09_01
+    name: nacos0091
   cloud:
     nacos:
       server-addr: 127.0.0.1:8848
       discovery:
         username: nacos
         password: nacos
-        namespace: nacos09
+        namespace: public
